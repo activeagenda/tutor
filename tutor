@@ -1,0 +1,16 @@
+#!/bin/bash
+AA_PATH=/var/www/s2a
+
+cp tutModuleDef.xml	$AA_PATH/active_agenda/xml/tutModuleDef.xml
+
+unzip -o Introduction.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o Navigation.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaModifyForm.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaModifySubmoduleData.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bctrMyShortcuts.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaAddNewRecord.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaSearch.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaCharts.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaDownloadFile.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bstaListReports.zip -d $AA_PATH/active_agenda/web/videos
+unzip -o bctrRecordReports.zip -d $AA_PATH/active_agenda/web/videos

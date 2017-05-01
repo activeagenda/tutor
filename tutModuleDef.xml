@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Tutorials" moduleID="tut" singularRecordName="Tutorial" pluralRecordName="Tutorials" allowAddRecord="No" isSystemModule="yes">
+    <ModuleFields>
+        <TableField name="RecordID" type="int" dbFlags="unsigned auto_increment not null" phrase="Record ID|An automatically assigned ID for internal purposes (primary key)" sample="1"/>
+	</ModuleFields>
+    <ModuleInfo>
+        <PrimaryKey>
+            <FieldRef name="RecordID"/>
+        </PrimaryKey>        
+    </ModuleInfo>
+	<Documentation>
+		<DocumentationSection sectionID="Introduction" title="Wprowadzenie">		
+<![CDATA[
+<br/>	
+<p>Celem wprowadzenia jest zapoznanie użytkownika z podstawowymi koncepcjami działania oprogramowania, w szczególności:</p>
+<ul>
+<li>pojęcia modułu,</li>
+<li>związku lista-wiersz jako podstawy modułu,</li>
+<li>pojęcia działań w kontekście listy,</li>
+<li>pojęcia działań w kontekście wiersza,</li>
+<li>powiązania wiersza z innymi modułami.</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('Introduction')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="Navigation" title="Nawigacja po systemie">		
+<![CDATA[
+<br/>
+<p>Tutorial wskazuje podstawowe elementy nawigacji pod systemie. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór "Menu Główne"</li>
+<li>Wybór ekranu "Kokpit"</li>
+<li>Wybór ekranu "Tutorial"</li>
+<li>Wybór ekranu "Glosariusz"</li>
+<li>Wybór ekranu "Forum"</li>
+<li>Wybór funkcjonalności "Wsparcie"</li>
+<li>Wybór funkcjonalności "Odświerz"</li>
+<li>Wybór funkcjonalności "Wylogowanie"</li>
+<li>Funkcjonalność ścieżki dostępu</li>
+<li>Wybór ekranu "Ogólnodostępna dyskusja"</li>
+<li>Wybór ekranu "Dokumentacja"</li>
+<li>Wybór funkcjonalności menu kontekstowego</li>
+<li>Wybór funkcjonalności "Odwiedziłeś strony"</li>
+<li>Wybór funkcjonalności "Link do tej strony"</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('Navigation')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="AddNewRecord" title="Dodawanie nowego rekordu do listy">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia dodanie nowego rekordu do listy. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Dodaj Nowy Rekord"</li>
+<li>Wypełnienie pól edycyjnych i zapisanie rekordu</li>
+<li>Kontrola wyniku czynności na ekranie "Rekord"</li>
+<li>Kontrola wyniku czynności na ekranie "Lista"</li>
+<li>Wybór ekranu "Dane główne" i usunięcie rekordu</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaAddNewRecord')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="ModifyForm" title="Modyfikacja Danych głównych rekordu">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia modyfikowanie danych głównych rekordu. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Dane główne" poprzez menu kontekstowe rekordu na ekranie "Lista"</li>
+<li>Modyfikacja pól edycyjnych i zapisanie rekordu</li>
+<li>Kontrola wyniku czynności na ekranie "Rekord"</li>
+<li>Kontrola wyniku czynności na ekranie "Lista"</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaModifyForm')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="ModifySubmoduleData" title="Modyfikacja danych zależnych rekordu w innych modułach">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia modyfikowanie danych związanych relacjami z rekordem w modułach zależnych na przykładzie Komentarzy. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Komentarze" poprzez menu kontekstowe rekordu na ekranie "Lista"</li>
+<li>Wybór funkcjonalności dodania nowego rekordu zależnego(Komentarza)</li>
+<li>Wypełnienie pól edycyjnych i zapisanie rekordu zależnego</li>
+<li>Kontrola wyniku czynności na ekranie "Komentarze"</li>
+<li>Modyfikacja zawartości informacyjnej rekordu zależnego (Komentarza)</li>
+<li>Kontrola wyniku czynności na ekranie "Rekord"</li>
+<li>Wybór ekranu "Komentarze" poprzez menu kontekstowe rekordu, wybór funkcjonalności modyfikacji rekordu zależnego i jego usunięcie</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaModifySubmoduleData')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="MyShortcuts" title="Dodanie nowego skrótu do Moje skróty i jego usunięcie">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia dodanie do menu "Moje skróty" nowego skrótu do wybranego ekranu i jego usunięcie. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Dane główne" poprzez menu kontekstowe rekordu na ekranie "Lista"</li>
+<li>Dodanie ekranu do Moje skróty</li>
+<li>Kontrola wyniku czynności poprzez wywołanie skrótu z ekranu "Kokpit"</li>
+<li>Usunięcie skrótu na ekranie "Dane główne"</li>
+<li>Kontrola wyniku czynności usunięcia skrótu</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bctrMyShortcuts')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="Search" title="Wyszukiwanie zbiorów rekordów">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia wyszukiwanie z listy zbiorów rekordów wypełniających warunki filtrowania. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Wyszukiwanie" poprzez menu kontekstowe ekranu "Lista"</li>
+<li>Wprowadzenie warunków wyszukiwania i uruchomienie wyszukiwania</li>
+<li>Kontrola wyniku czynności</li>
+<li>Modyfikacja warunków wyszukiwania</li>
+<li>Przeglądanie szegółowych wartości wyfiltrowanego zbioru na przykładzie ekranu "Rekord"</li>
+<li>Usunięcie wszystkich warunków wyszukiwania na ekranie "Lista"</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaSearch')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="Charts" title="Dodanie nowego wykresu do Kokpitu i jego usunięcie">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia dodanie wykresu do "Kokpitu" i jego usunięcia. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Wykresy" poprzez menu kontekstowe rekordu na ekranie "Lista"</li>
+<li>Dodanie wykresu do "Kokpit"</li>
+<li>Kontrola wyniku czynności poprzez wywołanie ekranu "Kokpit"</li>
+<li>Zmiana pozycji wykresu na ekranie "Kokpit"</li>
+<li>Usunięcie wykresu z ekranu "Kokpit"</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaCharts')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="DownloadFile" title="Pobieranie Listy dla Filtru Wyszukiwania">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia pobranie plików z danymi dla wybranego zbioru rekordów. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór funkcjonalności "Pobieranie Listy dla Filtru Wyszukiwania" i pobranie przykładowych danych</li>
+<li>Wybór ekranu "Wyszukiwanie" i wyszukanie rekordów według zadanych warunków</li>
+<li>Wybór funkcjonalności "Pobieranie Listy dla Filtru Wyszukiwania" i pobranie przykładowych danych</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaDownloadFile')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+		<DocumentationSection sectionID="ListReports" title="Pobranie raportu na bazie listy">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia pobranie raportu dla zbioru rekordów. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Raporty" i pobranie przykładowego raportu</li>
+<li>Wybór ekranu "Wyszukiwanie" i wyszukanie raportów według zadanych warunków</li>
+<li>Wybór ekranu "Raporty" i pobranie przykładowego raportu dla wyszukanego zbioru rekordów</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bstaListReports')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>
+<DocumentationSection sectionID="RecordReports" title="Pobranie raportu na bazie wybranego rekordu">		
+<![CDATA[
+<br/>
+<p>Tutorial przedstawia pobranie raportu dla zdefiniowanego w kontekście wybranego rekordu. Pokazane zostają następujące czynności:</p>
+<ul>
+<li>Wybór ekranu "Lista" modułu poprzez "Menu Główne"</li>
+<li>Wybór ekranu "Rekord" poprzez menu kontekstowe rekordu na ekranie "Lista"</li>
+<li>Wybór ekranu "Raporty" i pobranie przykładowego raportu</li>
+</ul>
+<p><a href="#" onclick="playCamtasiaScreencast('bctrRecordReports')" >Po kliknięciu w link tutorial otworzy się w nowym oknie i automatycznie rozpocznie odtwarzanie.</a></p>
+<br/><p>Powyższe możliwości systemu mogą być wypróbowane na modułach demonstracyjnych:</p>
+<ul>
+<li>Państwa;</li>
+<li>Województwa;</li>
+<li>Powiaty.</li>
+</ul>
+<p>Moduły demonstracyjne dostępne są po najechaniu myszą na "Menu Główne" w Listwie Głównej i wybranie ścieżki menu: "Menu Główne/Piaskownica/*". Zmiany wprowadzone w modułach demonstracyjnych nie mają wpływu na funkcje biznesowe aplikacji i mogą być wycofane przez administratora systemu.</p>
+]]>
+		</DocumentationSection>		
+	</Documentation>    
+    <Revision author="$Author: JWach" id="$Revision: 1" date="$Date: 2009-07-14"/>
+</Module>
